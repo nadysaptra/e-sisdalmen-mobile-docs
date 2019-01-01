@@ -17,3 +17,52 @@
 > start some emulator
 
 > do `react-native run-android` or `react-native run-ios`
+
+# Structure
+
+```text
+.
+└── android
+    ├── build
+    └── app
+        ├── app
+        ├── build
+        └── src
+    ├── build.gradle
+    └── gradlew
+├── ios
+├── src
+    ├── api
+        ├── kegiatan.js
+        ├── login.js
+        ├── message.js
+        ├── pekerjaan.js
+        ├── profile.js
+        ├── program.js
+        └── progress.js
+    ├── assets
+        └── logo.png
+    ├── components
+        ├── AppHeader.js
+        ├── Authentication.js
+        ├── Form.js
+        ├── Logo.js
+        ├── Permission.js
+        ├── Sidebar.js
+        └── Toaster.js
+    ├── screens
+        ├── BaseScreen.js
+        ├── ChangeNameScreen.js
+        ├── HomeScreen.js
+        ├── LoginScreen.js
+        ├── PekerjaanDetailScreen.js
+        ├── ProfileScreen.js
+        ├── ProgressMessageScreen.js
+        └── UploadProgressScreen.js
+    └── Routes.js    
+├── App.js
+├── package.json
+├── DB.js
+└── index.js
+    
+```
